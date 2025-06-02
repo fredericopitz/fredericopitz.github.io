@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Frederic Opitz – Home</title>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Open+Sans:400,600&display=swap" rel="stylesheet">
+  
+  <!-- Monospace (typewriter) font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Link to our stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,14 +33,20 @@
   <main class="content">
 
     <!-- ABOUT -->
-    <section id="about">
+    <section id="about" class="card">
       <h2>About Me</h2>
-      <p>I am an Economic and Policy analyst at the European Commission. I completed my PhD at <a href="https://www.ugent.be/" target="_blank" rel="noopener">Ghent University</a> in the Department of Economics in the Macroeconomics, Policy and Econometrics Research Group. During my PhD, I worked as a PhD Trainee at the <a href="https://www.ecb.europa.eu/" target="_blank" rel="noopener">European Central Bank</a>.</p>
-      <p><em>Disclaimer:</em> This is my personal website. The views expressed on this website are my own and should not be attributed to the European Commission.</p>
+      <p>
+        I am an Economic and Policy analyst at the European Commission. I completed my PhD at
+        <a href="https://www.ugent.be/" target="_blank" rel="noopener">Ghent University</a> in the
+        Department of Economics in the Macroeconomics, Policy and Econometrics Research Group.
+        During my PhD, I worked as a PhD Trainee at the
+        <a href="https://www.ecb.europa.eu/" target="_blank" rel="noopener">European Central Bank</a>.
+      </p>
+      <p><em>Disclaimer:</em> The views expressed on this website are my own and should not be attributed to the European Commission.</p>
     </section>
 
     <!-- EDUCATION -->
-    <section id="education">
+    <section id="education" class="card">
       <h2>Education</h2>
       <ul>
         <li><strong>2017–2023</strong>: PhD in Economics, Ghent University</li>
@@ -46,11 +56,13 @@
     </section>
 
     <!-- PUBLICATIONS -->
-    <section id="publications">
+    <section id="publications" class="card">
       <h2>(Forthcoming) Publications</h2>
-      <article>
+
+      <article class="publication-item">
         <h3>
-          <a href="https://www.imf.org/en/Publications/WP/Issues/2024/02/02/The-Housing-Supply-Channel-of-Monetary-Policy-544046" target="_blank" rel="noopener">
+          <a href="https://www.imf.org/en/Publications/WP/Issues/2024/02/02/The-Housing-Supply-Channel-of-Monetary-Policy-544046"
+             target="_blank" rel="noopener">
             The Housing Supply Channel of Monetary Policy
           </a>
         </h3>
@@ -62,32 +74,58 @@
           <a href="https://sites.google.com/view/martiniseringhausen" target="_blank" rel="noopener">Martin Iseringhausen</a>)
         </p>
       </article>
-      <article>
-        <h3><a href="https://doi.org/10.1016/j.jfs.2020.100818" target="_blank" rel="noopener">Macroprudential policy and its impact on the credit cycle</a></h3>
-        <p><em>Journal of Financial Stability, 53, April 2021</em> (working paper version <a href="https://www.ugent.be/eb/economics/en/research/working-papers/workingpapers/wp_19_990.pdf" target="_blank" rel="noopener">here</a>)</p>
+
+      <article class="publication-item">
+        <h3>
+          <a href="https://doi.org/10.1016/j.jfs.2020.100818" target="_blank" rel="noopener">
+            Macroprudential policy and its impact on the credit cycle
+          </a>
+        </h3>
+        <p>
+          <em>Journal of Financial Stability, 53, April 2021</em>
+          (working paper version
+          <a href="https://www.ugent.be/eb/economics/en/research/working-papers/workingpapers/wp_19_990.pdf"
+             target="_blank" rel="noopener">here</a>)
+        </p>
         <p>With Selien De Schryder.</p>
       </article>
-      <article>
-        <h3><a href="https://doi.org/10.1016/j.econlet.2020.109471" target="_blank" rel="noopener">Monetary policy and US housing expansions: The case of time-varying supply elasticities</a></h3>
-        <p><em>Economics Letters, 195, October 2020</em> (<a href="https://drive.google.com/file/d/1H1XFoEonYt3b4tFtrwABHrSSypl5RNFS/view?usp=sharing" target="_blank" rel="noopener">appendix</a>; summary on <a href="https://cepr.org/voxeu/columns/monetary-policy-and-us-housing-expansions-what-we-can-expect-post-covid-19-housing" target="_blank" rel="noopener">VoxEU</a>)</p>
+
+      <article class="publication-item">
+        <h3>
+          <a href="https://doi.org/10.1016/j.econlet.2020.109471" target="_blank" rel="noopener">
+            Monetary policy and US housing expansions: The case of time-varying supply elasticities
+          </a>
+        </h3>
+        <p>
+          <em>Economics Letters, 195, October 2020</em>
+          (<a href="https://drive.google.com/file/d/1H1XFoEonYt3b4tFtrwABHrSSypl5RNFS/view?usp=sharing"
+              target="_blank" rel="noopener">appendix</a>; summary on
+          <a href="https://cepr.org/voxeu/columns/monetary-policy-and-us-housing-expansions-what-we-can-expect-post-covid-19-housing"
+             target="_blank" rel="noopener">VoxEU</a>)
+        </p>
         <p>With Bruno Albuquerque and Martin Iseringhausen.</p>
       </article>
     </section>
 
     <!-- WORKING PAPERS -->
-    <section id="working-papers">
+    <section id="working-papers" class="card">
       <h2>Working Papers</h2>
       <ul>
-        <li><a href="https://wps-feb.ugent.be/Papers/wp_20_994.pdf" target="_blank" rel="noopener">Why narrative information matters: Evidence from the asset purchase program of the ECB</a>, March 2020</li>
+        <li>
+          <a href="https://wps-feb.ugent.be/Papers/wp_20_994.pdf" target="_blank" rel="noopener">
+            Why narrative information matters: Evidence from the asset purchase program of the ECB
+          </a>, March 2020
+        </li>
       </ul>
     </section>
 
     <!-- LINKS -->
-    <section id="links">
+    <section id="links" class="card">
       <h2>Links</h2>
       <p>
         <a href="https://ideas.repec.org/" target="_blank" rel="noopener">Ideas/RePEc</a> |
-        <a href="https://scholar.google.com/citations?user=CEZksP0AAAAJ&hl=fr&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://scholar.google.com/citations?user=CEZksP0AAAAJ&hl=fr&oi=ao"
+           target="_blank" rel="noopener">Google Scholar</a>
       </p>
     </section>
 
